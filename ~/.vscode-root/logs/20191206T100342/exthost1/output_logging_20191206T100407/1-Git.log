@@ -1,0 +1,98 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /opt/lampp/apps/wordpress/htdocs/wp-content/plugins/abc-plugin
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git config --global user.email
+> git config --global user.name
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show -s --format=%an <%ae> [%ai] 1c152e5bec7cb2c23a770db41067c93d4b014a9b
+> git show -s --format=%H
+%ae
+%P
+%B 1c152e5bec7cb2c23a770db41067c93d4b014a9b
+> git show -s --format=%an <%ae> [%ai] aa23caba25649f4aa70e3902b12d6ef778acdef3
+> git show -s --format=%H
+%ae
+%P
+%B aa23caba25649f4aa70e3902b12d6ef778acdef3
+> git show -s --format=%an <%ae> [%ai] c44b49e0fd7c12412cd7e4b66e532e0c58231ef8
+> git show -s --format=%H
+%ae
+%P
+%B c44b49e0fd7c12412cd7e4b66e532e0c58231ef8
+> git show -s --format=%an <%ae> [%ai] e1d76f70b8088d1bb94f9be0ea8dd711cd8a5f52
+> git show -s --format=%H
+%ae
+%P
+%B e1d76f70b8088d1bb94f9be0ea8dd711cd8a5f52
+> git show -s --format=%an <%ae> [%ai] 8d69f137b1410a0f3814bb885c3af1797be465fd
+> git show -s --format=%H
+%ae
+%P
+%B 8d69f137b1410a0f3814bb885c3af1797be465fd
+> git show -s --format=%an <%ae> [%ai] 7e48d6e98c1299457ec5022f751fb4b484b3ba04
+> git show -s --format=%H
+%ae
+%P
+%B 7e48d6e98c1299457ec5022f751fb4b484b3ba04
+> git show -s --format=%an <%ae> [%ai] 27b3fc39b4f63fa73311246c12c27b730c1ac5b2
+> git show -s --format=%H
+%ae
+%P
+%B 27b3fc39b4f63fa73311246c12c27b730c1ac5b2
+> git show -s --format=%an <%ae> [%ai] a3dfae9446f79622a6e7c0cc6b0a5cfcbfe70622
+> git check-ignore -v -z --stdin
+> git show -s --format=%H
+%ae
+%P
+%B a3dfae9446f79622a6e7c0cc6b0a5cfcbfe70622
+> git show -s --format=%an <%ae> [%ai] 7706626dfe290f9d3d7602a97dbbd8db7ee2ea25
+> git show -s --format=%H
+%ae
+%P
+%B 7706626dfe290f9d3d7602a97dbbd8db7ee2ea25
+> git show -s --format=%an <%ae> [%ai] c666dbe4f716753817006578c2e3ed9d8c68dd4f
+> git show -s --format=%H
+%ae
+%P
+%B c666dbe4f716753817006578c2e3ed9d8c68dd4f
+> git show -s --format=%an <%ae> [%ai] fe15d887d15a26177dc24ccbfb51971d663bd850
+> git show -s --format=%H
+%ae
+%P
+%B fe15d887d15a26177dc24ccbfb51971d663bd850
+> git show -s --format=%an <%ae> [%ai] 702d079ff37da66eb908656da96a5355a024a8f4
+> git check-ignore -v -z --stdin
+> git show :templates/management/events/events.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :inc/Pages/Management/Events.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :inc/Api/CRUD/CRUD.php
+> git check-ignore -v -z --stdin
+> git show :inc/Api/Callbacks/TemplatesCallbacks.php
+> git show :inc/Pages/Management/Events.php
+> git show :inc/Api/Callbacks/TemplatesCallbacks.php
+> git check-ignore -v -z --stdin
+> git show :inc/Base/BaseController.php
+> git show :inc/Base/Activate.php

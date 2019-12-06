@@ -3,25 +3,24 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Page;
 
 class FrontEndController extends Controller
 {
-    public function page(Request $request)
+    public function home()
     {
-        $page_title = 'Home Page';
+        return view('pages.home');
+    }
+    public function page(Request $request, $slug)
+    {
+        //$slug =$request->path();
 
-        switch ( $request->path() ){
-            case 'about':
-                $page_title = 'About Page';
-            break;
-            case 'contact':
-                $page_title = 'Contact Page';
-            break;
-            case 'blog':
-                $page_title = 'Blog Page';
-            break;
-        }
+        $page = Page::whereSlug( $slug )
+            ->first();
 
-        return view('pages.static', ['page_title' => $page_title]);
+        //dd($page->title);
+
+
+        return view('pages.static', compact('page'));
     }
 }

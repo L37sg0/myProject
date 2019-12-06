@@ -1,0 +1,11 @@
+Initializing document watcher...
+abc-plugin/templates/management/events/events.php: {}
+abc-plugin/inc/Pages/Management/Events.php: {}
+abc-plugin/inc/Pages/Management/Events.php: {}
+abc-plugin/inc/Api/CRUD/CRUD.php: {}
+abc-plugin/inc/Api/Callbacks/TemplatesCallbacks.php: {}
+abc-plugin/inc/Pages/Management/Events.php: {}
+abc-plugin/inc/Api/Callbacks/TemplatesCallbacks.php: {}
+abc-plugin/inc/Base/BaseController.php: {}
+abc-plugin/inc/Base/Activate.php: {}
+abc-plugin/inc/Base/Activate.php: {}

@@ -1,6 +1,8 @@
 <div class="links">
-        <a href="{{ route('home') }}">Home</a>
-        <a href="{{ route('blog') }}">Blog</a>
-        <a href="{{ route('about') }}">About</a>
-        <a href="{{ route('contact') }}">Contact</a>
+        <a href="/">Home</a>
+
+        @foreach ($pages as $page)
+            <a href="/{{ $page->slug }}">{{ $page->title }}</a>
+        @endforeach
+
     </div>

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+//use Illuminate\Http\Request;
 use App\Page;
 
 class FrontEndController extends Controller
@@ -11,16 +11,9 @@ class FrontEndController extends Controller
     {
         return view('pages.home');
     }
-    public function page(Request $request, $slug)
+
+    public function page( Page $page )
     {
-        //$slug =$request->path();
-
-        $page = Page::whereSlug( $slug )
-            ->first();
-
-        //dd($page->title);
-
-
         return view('pages.static', compact('page'));
     }
 }

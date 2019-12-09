@@ -15,17 +15,17 @@ class PagesTableSeeder extends Seeder
         DB::table('pages')->insert(
             [
                 [
-                    'title'     =>  'About Pages',
+                    'title'     =>  'About Page',
                     'slug'      =>  'about',
                     'content'   =>  'This is the About Page'
                 ],
                 [
-                    'title'     =>  'Blog Pages',
+                    'title'     =>  'Blog Page',
                     'slug'      =>  'blog',
                     'content'   =>  'This is the Blog Page'
                 ],
                 [
-                    'title'     =>  'Contact Pages',
+                    'title'     =>  'Contact Page',
                     'slug'      =>  'contact',
                     'content'   =>  'This is the Contact Page'
                 ],

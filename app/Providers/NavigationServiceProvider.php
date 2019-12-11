@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use App\Page;
+use App\Message;
 
 class NavigationServiceProvider extends ServiceProvider
 {
@@ -17,8 +18,10 @@ class NavigationServiceProvider extends ServiceProvider
         view()->composer( '*', function( $view ) {
 
             $pages = Page::all();
+            $messages = Message::all();
 
-            return $view->with( 'pages', $pages );
+            return $view->with( 'pages', $pages )
+                        ->with( 'messages', $messages );
         } );
     }
 

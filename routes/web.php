@@ -17,6 +17,11 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 
+Route::get('/crud', 'HomeController@crud')->name('crud');
+
+Route::get('/messages', 'MessagesController@index')->name('messages');
+Route::get('/messages/create', 'MessagesController@create')->name('messages');
+
 Route::get('/home', 'FrontEndController@home')->name('home');
 
 Route::get('/{page}', 'FrontEndController@page');
